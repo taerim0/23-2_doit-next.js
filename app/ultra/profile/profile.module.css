@@ -1,0 +1,80 @@
+.navbar {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: #d9d9d9;
+    bottom: 0;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1001;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: #262626;
+    top: 0;
+    left: 0;
+    right: auto;
+    height: 100%;
+    width: 12.5rem;
+    text-align: left;
+    transform: none;
+    transition: none;
+    animation: fix-nav-menu-large 200ms linear 0s 1;
+}
+
+.nbheader {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: table;
+    background-color: #262626;
+    border-bottom: 2px solid #1d1d1d;
+    box-shadow: 0 3px 0 0 #262626;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.nbLogo {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.nblistbutton {
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    height: 100px;
+    border: none;
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
+}
+
+.nbbd {
+    margin-left: 15px;
+}
+
+.link {
+    text-decoration: none;
+color: white;
+}

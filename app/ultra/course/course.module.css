@@ -1,0 +1,508 @@
+.navbar {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: #d9d9d9;
+    bottom: 0;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1001;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: #262626;
+    top: 0;
+    left: 0;
+    right: auto;
+    height: 100%;
+    width: 12.5rem;
+    text-align: left;
+    transform: none;
+    transition: none;
+    animation: fix-nav-menu-large 200ms linear 0s 1;
+}
+
+.nbheader {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: table;
+    background-color: #262626;
+    border-bottom: 2px solid #1d1d1d;
+    box-shadow: 0 3px 0 0 #262626;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.nbLogo {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.nblistbutton {
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    height: 100px;
+    border: none;
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
+}
+
+.nbbd {
+    margin-left: 15px;
+}
+
+.link {
+    text-decoration: none;
+color: white;
+}
+
+.course {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 12.5rem;
+    height: 100vh;
+}
+
+.coursebase {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+}
+
+.coursetop {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: left 0.5s cubic-bezier(0.55, 0, 0.1, 1),right 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+    position: relative;
+    z-index: inherit;
+    width: auto;
+    height: 6.6875rem;
+    padding: 0 1.875rem;
+    text-align: left;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #fff;
+}
+
+.courseheader {
+    font-size: 30px;
+}
+
+.coursebody {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 1.25rem;
+}
+
+.courselist {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: block;
+    padding: 0 1.875rem;
+}
+
+.clist {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+}
+
+.fav {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.625rem;
+}
+
+.cc {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    cursor: auto;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+}
+
+.artic {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    position: relative;
+    background-color: #fff;
+    padding: 1rem 0.75rem 0.75rem 1.5rem;
+    border: 1px solid #cdcdcd;
+    border-left: 12px solid #666;
+    margin-left: 0.125rem;
+    margin-bottom: 1.1rem;
+    display: flex;
+    cursor: pointer;
+    min-height: 5.125rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.clistc {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    white-space: normal;
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: 1.1875rem;
+    flex-grow: 1;
+    justify-content: flex-start;
+    z-index: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: static;
+    padding: 0.125rem;
+    padding-left: 0;
+    width: 100%;
+}
+
+.spanlist {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    line-height: 1.1875rem;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+    word-wrap: normal !important;
+    color: #666;
+    font-size: .875rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.classname {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background-color: transparent;
+    line-height: inherit;
+    width: 83.33333%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+    word-wrap: normal !important;
+    text-decoration: none !important;
+    height: 1.5rem;
+    color: #262626;
+}
+
+.nameh {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #262626;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    text-overflow: ellipsis;
+    white-space: nowrap !important;
+    word-wrap: normal !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Open Sans",sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.3125rem;
+    display: inline;
+}
+
+.ocs {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    line-height: inherit;
+    white-space: nowrap !important;
+    word-wrap: normal !important;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #767676;
+    padding-left: 0.5625rem;
+    display: inline;
+}
+
+.artbot {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    white-space: normal;
+    line-height: 1.1875rem;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    width: 83.33333%;
+    display: flex;
+    padding-bottom: 0.0625rem;
+    visibility: visible;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botbi {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    white-space: normal;
+    line-height: 1.1875rem;
+    visibility: visible;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 1.4375rem;
+    display: flex;
+}
+
+.botbii1 {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    white-space: normal;
+    line-height: 1.1875rem;
+    visibility: visible;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 1.4375rem;
+    font-size: .75rem;
+    color: #262626;
+    margin-bottom: 0;
+}
+
+.botb1 {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    white-space: normal;
+    line-height: 1.1875rem;
+    visibility: visible;
+    font-size: .75rem;
+    color: #262626;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.botbii2 {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875rem;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    white-space: normal;
+    line-height: 1.1875rem;
+    visibility: visible;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 1.4375rem;
+}
+
+.botb2 {
+    -webkit-text-size-adjust: 100%;
+    color: #262626;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .75rem;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: pointer;
+    line-height: 1.1875rem;
+    visibility: visible;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    white-space: nowrap !important;
+    word-wrap: normal !important;
+}

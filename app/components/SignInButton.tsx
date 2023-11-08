@@ -3,7 +3,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import React from "react";
 import { useRouter } from 'next/navigation';
 
-function SignButton() {
+function SignInButton() {
   const { data: session } = useSession();
   const router = useRouter();
 
@@ -28,7 +28,7 @@ function SignButton() {
       </button>
       <button
       className="px-12 py-4 border rounded-xl bg-yellow-300"
-      onClick={() => router.push("./register")}
+      onClick={() => router.push("./api/user")}
       >
       Register
       </button>
@@ -36,4 +36,4 @@ function SignButton() {
   );
 }
 
-export default SignButton;
+export default SignInButton;

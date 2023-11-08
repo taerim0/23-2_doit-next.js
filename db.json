@@ -1,42 +1,60 @@
 {
-  "userData" : [
+  "profile": {
+    "name" : ".허태림",
+    "studentID" : "202322064",
+    "email" : "taerim.be@gmail.com",
+    "department" : "소프트웨어학과",
+    "phoneNumber" : "01012345678(휴대폰)"
+  },
+  "courses" : [
     {
-      "loginData" : {
-        "id" : "taerim"
-      },
-      "profile": {
-        "name" : ".허태림",
-        "studentID" : "202322064",
-        "email" : "taerim.be@gmail.com",
-        "department" : "소프트웨어학과",
-        "phoneNumber" : "01065260633(휴대폰)"
-      },
-      "courses" : [
-        {
-          "code" : "CGEX1034",
-          "name" : "아주도전2",
-          "courseId" : "X649-9",
-          "professorName" : "이환용"
-        },
-        {
-          "code" : "SCE436",
-          "name" : "인간과 컴퓨터 상호작용",
-          "courseId" : "F050-1",
-          "professorName" : "이환용"
-        },
-        {
-          "code" : "SCE4910",
-          "name" : "창업실습 2",
-          "courseId" : "F036-1",
-          "professorName" : "이환용"
-        },
-        {
-          "code" : "SCE499",
-          "name" : "창업실습 1",
-          "courseId" : "F037-1",
-          "professorName" : "이환용"
-        }
-      ]
+      "code" : "ENG111",
+      "classId" : "2023U00020032023085919",
+      "name" : "Spreaking and Writing in English",
+      "courseId" : "X135-9",
+      "professorName" : ".Joseph Ball"
+    },
+    {
+      "code" : "MATH103",
+      "classId" : "2023U000200320231276625",
+      "name" : "수학2",
+      "courseId" : "X305-25",
+      "professorName" : ".정은경"
+    },
+    {
+      "code" : "PHYS117",
+      "classId" : "2023U00020032023127794",
+      "name" : "물리학",
+      "courseId" : "X436-4",
+      "professorName" : ".이경화"
+    },
+    {
+      "code" : "PHYS118",
+      "classId" : "2023U00020032023127768",
+      "name" : "물리학실험",
+      "courseId" : "X411-8",
+      "professorName" : ".임준원"
+    },
+    {
+      "code" : "SCE104",
+      "classId" : "2023U00020032023095261",
+      "name" : "인공지능입문",
+      "courseId" : "F044-1",
+      "professorName" : ".최재영"
+    },
+    {
+      "code" : "SCE141",
+      "classId" : "2023U00020032023095291",
+      "name" : "이산수학",
+      "courseId" : "F051-1",
+      "professorName" : ".고영은"
+    },
+    {
+      "code" : "SCE205",
+      "classId" : "2023U00020032023096371",
+      "name" : "자료구조",
+      "courseId" : "F014-1",
+      "professorName" : ".유재희"
     }
   ]
 }
