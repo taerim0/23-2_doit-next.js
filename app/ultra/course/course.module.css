@@ -484,6 +484,17 @@ color: white;
     height: 1.4375rem;
 }
 
+.nbnowbutton {
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    height: 100px;
+    border: none;
+    background-color: #365ec9;
+    margin: 0;
+    padding: 0;
+}
+
 .botb2 {
     -webkit-text-size-adjust: 100%;
     color: #262626;
