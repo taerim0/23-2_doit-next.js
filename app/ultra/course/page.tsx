@@ -13,20 +13,6 @@ const Course = async () => { // 비동기 함수로 변경시켜줌
   });
   const profile = await profile_response.json();
 
-//   console.log(typeof(courses))
-//   return (
-//     <div>
-//       {courses.map((course: any) => (
-//         <div>
-//           <span>
-//             {course.code}_ {course.name}({course.courseId})
-//           </span>
-//           <span>{course.professtorName}</span>
-//         </div>
-//       ))}
-//     </div>
-//   );
-
   return (
     <html>
         <body>
@@ -101,7 +87,7 @@ const Course = async () => { // 비동기 함수로 변경시켜줌
                     <section className={styles.courselist}>
                         <div className={styles.clist}>
                             <div className={styles.fav}>
-                                <h3>즐겨찾기</h3>
+                                <h3>2023학년 2학기</h3>
                             </div>
                             {courses.map((course: any) => (
                                 <div className={styles.cc}>

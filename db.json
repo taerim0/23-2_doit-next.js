@@ -4,13 +4,13 @@
     "studentID" : "202322064",
     "email" : "taerim.be@gmail.com",
     "department" : "소프트웨어학과",
-    "phoneNumber" : "01012345678(휴대폰)"
+    "phoneNumber" : "010-1234-5678(휴대폰)"
   },
   "courses" : [
     {
       "code" : "ENG111",
       "classId" : "2023U00020032023085919",
-      "name" : "Spreaking and Writing in English",
+      "name" : "Speaking and Writing in English",
       "courseId" : "X135-9",
       "professorName" : ".Joseph Ball"
     },
