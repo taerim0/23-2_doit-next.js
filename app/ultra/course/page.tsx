@@ -40,7 +40,7 @@ const Course = async () => { // 비동기 함수로 변경시켜줌
                         𑁍 활동 스트림
                     </div>
                 </button>
-                <button className={styles.nblistbutton}>
+                <button className={styles.nbnowbutton}>
                     <Link href={'/ultra/course'} className={styles.link}>
                     <div className={styles.nbbd}>
                         ⌸ 코스
