@@ -1,4 +1,6 @@
 ultra/profile
 
-![image](https://github.com/taerim0/Doit-next.js/assets/127942413/4352f3da-0cd9-43c1-811e-94756b6dcb52)
+![image](https://github.com/taerim0/Doit-next.js/assets/127942413/c92c1de2-4d8e-4d04-b8eb-69d17613af34)
+
+ultra/course
 
