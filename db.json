@@ -1,0 +1,82 @@
+{
+  "userData" : [
+    {
+      "loginData" : {
+        "id" : "202322064",
+        "password" : "nextjs"
+      },
+      "profile": {
+        "name" : ".허태림",
+        "studentID" : "202322064",
+        "email" : "taerim.be@gmail.com",
+        "department" : "소프트웨어학과",
+        "phoneNumber" : "01065260633(휴대폰)"
+      },
+      "courses" : [
+        {
+          "code" : "CGEX1034",
+          "name" : "아주도전2",
+          "courseId" : "X649-9",
+          "professorName" : "이환용"
+        },
+        {
+          "code" : "SCE436",
+          "name" : "인간과 컴퓨터 상호작용",
+          "courseId" : "F050-1",
+          "professorName" : "이환용"
+        },
+        {
+          "code" : "SCE4910",
+          "name" : "창업실습 2",
+          "courseId" : "F036-1",
+          "professorName" : "이환용"
+        },
+        {
+          "code" : "SCE499",
+          "name" : "창업실습 1",
+          "courseId" : "F037-1",
+          "professorName" : "이환용"
+        }
+      ]
+    },
+    {
+      "loginData" : {
+        "id" : "202322064",
+        "password" : "nextjs"
+      },
+      "profile": {
+        "name" : ".허태림",
+        "studentID" : "202322064",
+        "email" : "taerim.be@gmail.com",
+        "department" : "소프트웨어학과",
+        "phoneNumber" : "01065260633(휴대폰)"
+      },
+      "courses" : [
+        {
+          "code" : "CGEX1034",
+          "name" : "아주도전2",
+          "courseId" : "X649-9",
+          "professorName" : "이환용"
+        },
+        {
+          "code" : "SCE436",
+          "name" : "인간과 컴퓨터 상호작용",
+          "courseId" : "F050-1",
+          "professorName" : "이환용"
+        },
+        {
+          "code" : "SCE4910",
+          "name" : "창업실습 2",
+          "courseId" : "F036-1",
+          "professorName" : "이환용"
+        },
+        {
+          "code" : "SCE499",
+          "name" : "창업실습 1",
+          "courseId" : "F037-1",
+          "professorName" : "이환용"
+        }
+      ]
+    }
+  ]
+}
